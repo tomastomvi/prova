@@ -1,15 +1,13 @@
-package exer1;
+package exer6_b;
 
 public class main {
+ public static void main(String[] args) {
 
-    public static void main(String[] args) {
+        retangulo r1 = new retangulo();
+        r1.largura = 4.50;
+        r1.altura = 6;
+        r1.calcularArea();
         
-        cliente cliente1 = new cliente();
-        cliente1.nome = "lisan al gaibh";
-        cliente1.email = "al@gamil.com";
-        cliente1.telefone = "(11) 123456-7890";
-        cliente1.registrarcompras(100.50);
-        cliente1.registrarcompras(150.50);
-     
-    }
+            r1.exibir();
+ }
 }
